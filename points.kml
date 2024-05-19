@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28969845610989,34.032082186578506</coordinates></Point>
+</Placemark>
+
+<Folder>
+<name>Rossier</name>
+<Placemark><name>PulliasCenter</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28408887678357,34.02198691174533</coordinates></Point>
+</Placemark>
+<Placemark><name>Arts</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28377646446016,34.02183144068405</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder>
+<name>Dornslife</name>
+<Placemark><name>EarthScience</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28410315989271,34.02174159119446</coordinates></Point>
+</Placemark>
+<Placemark><name>MilitaryScience</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28493641745949,34.02068096579834</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder>
+<name>Annenberg</name>
+<Placemark><name>Communication</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28563003506714,34.02218831553493</coordinates></Point>
+</Placemark>
+<Placemark><name>Journalism</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28485037575152,34.02167760449282</coordinates></Point>
+</Placemark>
+</Folder>
+
+
+<Folder>
+<name>Viterbi</name>
+<Placemark><name>Electrical</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28992992170694,34.020221019615896</coordinates></Point>
+</Placemark>
+<Placemark><name>Computers</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2891089660523,34.0194714460153</coordinates></Point>
+</Placemark>
+</Folder>
+
+
+<Folder>
+<name>Marshall</name>
+<Placemark><name>Accounting</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28612864265556,34.01904844628693</coordinates></Point>
+</Placemark>
+<Placemark><name>Operations</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28593781718199,34.01938627354335</coordinates></Point>
+</Placemark>
+</Folder>
+
+
+<Folder>
+<name>SolPrice</name>
+<Placemark><name>RealEstate</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28300785307381,34.019458993642914</coordinates></Point>
+</Placemark>
+<Placemark><name>Philanthropy</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28323552432671,34.01899666843321</coordinates></Point>
+</Placemark>
+</Folder>
+
+
+<Folder>
+<name>ConvexHull</name>
+<Placemark>
+  <name>Convex Hull</name>
+  <Polygon>
+      <tessellate>1</tessellate>
+      <outerBoundaryIs>
+          <LinearRing>
+              <coordinates>
+                  -118.28323552432671,34.01899666843321
+                  -118.28612864265556,34.01904844628693
+                  -118.2891089660523,34.0194714460153
+                  -118.28992992170694,34.020221019615896
+                  -118.28969845610989,34.032082186578506
+                  -118.28377646446016,34.02183144068405
+                  -118.28300785307381,34.019458993642914
+                  -118.28323552432671,34.01899666843321
+              </coordinates>
+          </LinearRing>
+      </outerBoundaryIs>
+  </Polygon>
+
+</Placemark>
+</Folder>
+
+<Folder>
+<name>Neighbors</name>
+<Placemark>
+	<name>Neighbor 1 - Communication</name>
+  <LineString>
+    <extrude>1</extrude>
+    <tessellate>1</tessellate>
+    <coordinates>-118.28969845610989,34.032082186578506,0  -118.28563003506714,34.02218831553493,0</coordinates>
+  </LineString> 
+</Placemark>
+<Placemark>
+	<name>Neighbor 2 - Journalism</name>
+  <LineString>
+    <extrude>1</extrude>
+    <tessellate>1</tessellate>
+    <coordinates>-118.28969845610989,34.032082186578506,0  -118.28485037575152,34.02167760449282,0</coordinates>
+  </LineString> 
+</Placemark>
+<Placemark>
+	<name>Neighbor 3 - PulliasCenter</name>
+  <LineString>
+    <extrude>1</extrude>
+    <tessellate>1</tessellate>
+    <coordinates>-118.28969845610989,34.032082186578506,0  -118.28408887678357,34.02198691174533,0</coordinates>
+  </LineString> 
+</Placemark>
+<Placemark>
+  <name>Neighbor 4 - EarthScience</name>
+  <LineString>
+    <extrude>1</extrude>
+    <tessellate>1</tessellate>
+    <coordinates>-118.28969845610989,34.032082186578506,0  -118.28410315989271,34.02174159119446,0</coordinates>
+  </LineString> 
+</Placemark>
+</Folder>
+
+
+</Document></kml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
